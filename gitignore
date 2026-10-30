@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Streamlit secrets (never commit)
+.streamlit/secrets.toml
+
+# Sensitive exam data - NEVER commit candidate-level data
+G05*.xlsx
+Mutur_Exam_Analysis_Report.xlsx
+G05_candidates.xlsx
+*.csv
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
